@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #005C53;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.navbar h1 a {
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.navbar h1 a:hover {
+    color: #042940;
+}
+
+.box-search-movie form {
+    display: flex;
+    gap: 1rem;
+}
+
+.box-search-movie input,
+.box-search-movie button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.box-search-movie input {
+    padding: .5rem 2rem;
+    background-color: #042940;
+    color: white;
+}
+
+.box-search-movie input::placeholder {
+    color: white;
+}
+
+.box-search-movie button {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background-color: #042940;
+    color: #fff;
+    opacity: .9;
+    transition: .3s;
+}
+.box-search-movie button:hover {
+    opacity: 1;
+}
+
+.footer {
+    background-color: #005C53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
+.footer p,
+.footer span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.footer p a,
+.footer span {
+    transition: .3s;
+}
+
+.footer p a:hover {
+    color: #042940;
+}
+
+
+.footer span a:hover {
+    color: #042940;
+}

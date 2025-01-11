@@ -1,0 +1,36 @@
+.container-movie {
+    width: 1200px;
+    margin: 3rem auto 13rem;
+    padding: 3rem;
+}
+
+.container-movie h1 {
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.container-movie img {
+    margin-left: 300px;
+}
+
+.box-info-movie {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.box-info-movie span {
+    color: rgb(255, 179, 0);
+}
+
+.box-info-movie p {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.info-movie span{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
